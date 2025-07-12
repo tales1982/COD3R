@@ -1,0 +1,10 @@
+.SectionMain{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.SectionCards{
+    display: flex;
+    flex-wrap: wrap;
+}
