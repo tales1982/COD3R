@@ -1,4 +1,4 @@
-import "./ComParametro.css";
+import "../../styles/ComParametro.css";
 
 export default function ComParametro({ titulo, aluno, nota }) {
   const status = nota >= 7 ? "Aprovado" : "Reprovado";

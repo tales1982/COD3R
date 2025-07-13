@@ -1,0 +1,45 @@
+/* arquivo: TabelaProdutos.css */
+
+/* 1. Garante que as bordas fiquem “coladas” (sem espaçamento duplo) */
+.tabela-produtos {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* 2. Estilo para células */
+.tabela-produtos th,
+.tabela-produtos td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* 3. Cabeçalho com fundo distinto */
+.tabela-produtos thead {
+  background-color: #f2f2f2;
+}
+
+/* 4. Linhas com cores alternadas */
+.tabela-produtos tbody tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+/* 5. Efeito de hover na linha */
+.tabela-produtos tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+/* 6. Estilo do caption */
+.tabela-produtos caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* 7. Deixa a tabela rolável em telas pequenas */
+.tabela-container {
+  overflow-x: auto;
+}
