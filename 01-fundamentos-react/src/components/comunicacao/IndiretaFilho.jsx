@@ -14,7 +14,6 @@ export default function IndiretaFilho(props) {
 
   return (
     <div>
-        ²
       <p>Filho</p>
       <form onSubmit={aoEnvia} style={{display:"flex", flexDirection:"column"}}>
         <input type="text" placeholder="Nome" value={nome} onChange={ e => setNome(e.target.value)} style={{height:"20px",margin:"3px"}}/>

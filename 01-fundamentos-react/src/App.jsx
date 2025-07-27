@@ -15,6 +15,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import ComponentClasse from "./components/componenteClasse/ComponenteClasse";
+import MegaSena from "./components/desafio/MegaSena";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -83,6 +84,10 @@ export default () => {
 
         <Cards titulo="#10 Componente criado com classes" color="#280446">
           <ComponentClasse numeroInicial={10}/>
+        </Cards>
+
+        <Cards titulo="#11 Dessafio numeros MegaSena" color="#3d2403">
+          <MegaSena valorMin={1} valorMax={60} quantity={6}/>
         </Cards>
       </div>
     </div>
